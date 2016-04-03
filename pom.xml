@@ -30,6 +30,7 @@
 
 	<packaging>pom</packaging>
 	<modules>
+		<module>fr.thibaultleouay.chat.target</module>    
 		<module>fr.thibaultleouay.chat.client</module>
 		<module>fr.thibaultleouay.chat.rcp</module>
 	</modules>
@@ -44,7 +45,7 @@
 				<configuration>
 							<target>
 								<artifact>
-									<groupId>fr.thibaultleouay.chat.rcp</groupId>
+									<groupId>fr.thibaultleouay.chat.target</groupId>
 									<artifactId>target-definition</artifactId>
 									<version>0.0.1-SNAPSHOT</version>
 								</artifact>
